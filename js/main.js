@@ -93,7 +93,7 @@ function scoreColor(status) {
     if (['YES'].indexOf(status) !== -1) {
         return 'green';
     }
-    else if (['NA'].indexOf(status) !== -1) {
+    else if (['IN PROGRESS'].indexOf(status) !== -1) {
         return 'yellow';
     }
     else if (['NO'].indexOf(status) !== -1) {
