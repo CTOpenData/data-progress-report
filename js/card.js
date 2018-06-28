@@ -34,7 +34,7 @@ function renderReport(data) {
         if (['YES'].indexOf(status) !== -1) {
             return 'green';
         }
-        else if (['NA'].indexOf(status) !== -1) {
+        else if (['IN PROGRESS'].indexOf(status) !== -1) {
             return 'yellow';
         }
         else if (['NO'].indexOf(status) !== -1) {
@@ -50,7 +50,7 @@ function renderReport(data) {
 
     var cardsHTML = data.map(function(agency) {
         var scores = {};
-        ['ado', 'published_initial_datasets', 'submitted_initial_datasets', 'enterpise_data_inventory_status'].map(function(category) {
+        ['ado', 'submitted_initial_datasets','published_initial_datasets', 'enterpise_data_inventory_status'].map(function(category) {
             scores[category] = {text: agency[category], color: scoreColor(agency[category])};
         });
 
