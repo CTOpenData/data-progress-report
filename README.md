@@ -1,15 +1,15 @@
-# CT Open Data Progress Report
+# CT Open  Progress Report
 
 ## Overview
 
-Connecticut's Open Data Initiative kicked off in February 2014 where State Agencies were required to increase the amount of open data published by each State Agency.
+Public Act 18-175 requires each executive branch agency to begin to manage data as an asset. In addition, it bolsters CT's efforts associated with open data.
 
 1. designate an Agency Data Officer
-2. submit initial datasets
-3. publish initial datasets
-4. conduct and enterprise data inventory 
+2. inventory high value data
+3. create open data access plans
 
-The purpose of this project is to track agency progress toward meeting the required goals of Connecticut's Open Data Intitiave
+
+The purpose of this project is to track agency progress toward meeting the required goals of Connecticut's new data law
 
 ## Setup
 
