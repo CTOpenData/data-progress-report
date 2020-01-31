@@ -1,7 +1,7 @@
 "use strict"
 
 function main() {
-    $.ajax({ method: 'GET', url: 'https://data.ct.gov/resource/j6fx-6c5x.json' })
+    $.ajax({ method: 'GET', url: 'https://data.ct.gov/resource/pb5x-kf8z.json' })
         .done(function(data, status) {
             console.log('DONE: Status is ', status)
             renderReport(data);
@@ -9,7 +9,7 @@ function main() {
             console.error('fail', status, err);
         });
 
-    $.ajax({ method: 'GET', url: 'https://data.ct.gov/resource/j6fx-6c5x.json' })
+    $.ajax({ method: 'GET', url: 'https://data.ct.gov/resource/pb5x-kf8z.json' })
         .done(function(data, status) {
             console.log('DONE: Status is ', status)
             renderReportMetadata(data);
